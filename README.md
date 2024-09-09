@@ -11,5 +11,9 @@ The goal of this project was to create a classifier and random forest model to p
 ## Data Understanding
 
 ## Modeling and Evaluation
+A random forest model comprising 500 decision trees was used to determine feature importance in which employees would leave or stay. The below plot shows that last evaluation, number of projects, tenure, and the fact whether an employee was overworked or not were among the Top 4 most important factors in determining a employee leaving or staying. The overall model performed with 89.8% recall, 87.1% precision and an AUC of 93.5%. 
+
+[Image]
+
 
 ## Conclusion
