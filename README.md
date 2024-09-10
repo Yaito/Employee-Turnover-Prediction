@@ -11,7 +11,9 @@ As part of the good practices within Human Resources (HR) most companies conduct
 [Insert Stats and Research to justify the business proposal]
 
 ## Data Understanding
+The data came from Salifort Motors last employees self-reported survey. The data consisted of approximately 14999 unique self-reported responses and 10 features. The features included information on satisfaction level, last evaluation performance, number of project employee contributes to, average monthly hours, time spend in the company, and other valuable information. The bar chart below shows the breakdown of how many employees that stayed and left exist in the dataset.
 
+[Insert Values Counts of the Target Column]
 
 ## Modeling and Evaluation
 A random forest model comprising 500 decision trees was used to determine feature importance in which employees would leave or stay. The below plot shows that last evaluation, number of projects, tenure, and the fact whether an employee was overworked or not were among the Top 4 most important factors in determining a employee leaving or staying. The overall model performed with 89.8% recall, 87.1% precision and an AUC of 93.5%. 
@@ -20,3 +22,11 @@ A random forest model comprising 500 decision trees was used to determine featur
 
 
 ## Conclusion
+
+The models and features importances reviewed from the models confirm that employees within Salifort Motors are overworked.
+To retain employees, the following recomendations could be presented to the stakeholders:
+- Limit the number of projects that employees can work on.
+- Prioritize promotion for employees that have been with the company at least 4 years.
+- Choose between rewarding accordingly employees who work longer hours or don't require them to do so.
+- High evaluation for performance review should be attribute to every employee who contribute more/put in more effort and not only for employees who worke 200+ hours per month.
+- Next steps could be, to try to limit features that may not be available at all times for the model to perform well, like last evaluation performance.
